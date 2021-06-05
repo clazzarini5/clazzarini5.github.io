@@ -3,6 +3,18 @@
 <Html>
     <head>
         <title>Zelda - About Me</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .fact {
+                color: maroon;
+                font-weight: bold;
+            }
+            #star-wars-day {
+                color: rgb(204, 175, 10)
+            }
+        </style>
     </head>
 
     <body>
@@ -11,7 +23,42 @@
 
         <img src="IMG-0210.jpg">
 
-        <p>I am a <a href="https://en.wikipedia.org/wiki/Poodle">standard poodle!</a></p>
+        <h2>Quick facts:</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Fact</td>
+                    <td>Answer</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="fact">My Birthday</td>
+                    <td id="star-wars-day">May 4, 2017 (Star Wars Day) **</td>
+                </tr>
+                <tr>
+                    <td class="fact">My Friends</td>
+                    <td>Melba, Charlie, Rose, Boo, and Bella</td>
+                </tr>
+                <tr>
+                       <td class="fact">Weight</td> 
+                       <td>57 lbs</td>
+                </tr>
+                <tr>
+                    <td class="fact">Color</td>
+                    <td>Gray, Black, and White Phantom Brindle</td>
+                </tr>
+                <tr>
+                    <td class="fact">Breed</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Poodle">Standard Poodle</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <p id="star-wars-day">** May the <a href="https://en.wikipedia.org/wiki/Star_Wars_Day">FORCE</a> be with you!</p>
         
         <p>Click <a href="index.html">here</a> to go back to Zelda's homepage</p>
 

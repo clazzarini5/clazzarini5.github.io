@@ -1,0 +1,19 @@
+h1 { 
+    color:magenta; 
+}
+body {
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif; background-color: lightblue;
+}
+h4 {
+    color:#3a9c3a; text-shadow: rebeccapurple;
+}
+thead {
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid green;
+    padding: 5px;
+}
